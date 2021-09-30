@@ -1,0 +1,17 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--blue:  #0d2f56;
+	--gray: #f3f3f3;
+   --light-blue:  #0054a0;
+	--navy-blue: #0a213d;
+   --green:  #35a748;
+   --font-blue:  #035388;
+}
+
+/* USAGE */
+
+.thingy {
+	color:  var(--highlight); /* used as variable */
+}

@@ -1,0 +1,42 @@
+
+
+
+.loud-voice	{
+   font-family: 'Merriweather', serif;
+	font-size: clamp(40px, 5vw, 60px);
+   font-weight: 700;
+   font-style: italic;
+}
+
+
+.intro-voice	{
+
+	font-size: 40px;
+}
+
+.attention-voice	{
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+      font-weight: 700;
+   font-style: italic;
+}
+
+.calm-voice {
+	font-size: 16px;
+	line-height: 1.4;
+
+}
+
+/* these would be scoped to section or to an article element */
+/* this is just a loose setting for now */
+p + p {
+	margin-top: 14px;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}

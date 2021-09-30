@@ -1,0 +1,134 @@
+
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+/*@import 'developer-styles.css'; */
+/* comment this out! */
+
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+
+/* STRUCTURE */
+@import 'structure.css';
+
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+
+/* COMPONENTS */
+@import 'components.css';
+
+
+/* MODULES */
+@import 'modules/masthead.css';
+@import 'modules/graphic-diptych.css';
+@import 'modules/call-to-action.css';
+@import 'modules/articles-intro.css';
+@import 'modules/article-card.css';
+@import 'modules/photo-grid.css';
+@import 'modules/site-map.css';
+/* should everything/nothing be in it's own file? */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+body {
+	background-color: #333;
+   font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+
+/* SITE SECTIONS */
+.site-header {
+	position: sticky;
+	top: 0;
+
+}
+
+
+/* just to show the full-width and section seperation */
+section:nth-of-type(odd) {
+	/*background-color: rgba(0,0,0,.05);*/
+	
+
+}
+
+
+
+/* OK! SITE STYLES! */
+.site-header {
+  background-color: var(--light-blue);
+    border-bottom: 5px solid #0aa2d4;
+
+}
+
+
+.site-header mast-head{
+  background-color: var(--light-blue);
+  color: var(--white);
+  /*border-bottom: 5px solid #0aa2d4;*/
+}
+
+.welcome {
+  
+}
+
+
+/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
+
+
+.get-involved {
+  /*background-color: var(--blue);*/
+
+/*  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+*/} 
+
+
+.get-involved, .get-involved call-to-action {
+	background-color: var(--navy-blue);
+
+}
+
+
+.stuff, .stuff articles-intro {
+	background-color: var(--blue);
+  
+}
+
+.photo-grid {
+   background-color: #fff;
+}
+
+.help-us, .help-us call-to-action{
+	background-color: var(--gray);
+  
+}
+
+footer, .site-footer {
+	background-color: var(--navy-blue);
+	color: var(--white);
+	padding:  15px;
+}
+
+.site-footer .logo {
+	max-width:  120px;
+}
+
+.not-found {
+	background-color: var(--light-blue);
+	margin-top:  50px;
+}
+.not-found h2 {
+	color:  var(--orange);
+
+
+}
