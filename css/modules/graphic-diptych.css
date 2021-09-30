@@ -1,0 +1,46 @@
+
+.welcome inner-column {
+  padding:  0;
+
+}
+
+graphic-diptych {
+  display: block;
+}
+
+
+graphic-diptych text-content {
+  display: block;
+  padding:  40px 20px;
+  text-align:  center;
+  color: var(--white);
+  background-color: var(--blue);
+  width:  min(100%, 1200px);
+  margin:  auto;
+}
+
+
+@media (min-width:  750px) {
+
+   graphic-diptych text-content h1.loud-voice {
+      font-size: 35px;
+      padding-top:  10px;
+   }
+
+   .welcome {
+      background-color: var(--blue);
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+
+call-to-action {
+  display: block;
+  padding: 80px 20px 40px;
+  text-align: center;
+/*
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+
+ 
+}
+
+
+
+call-to-action .attention-voice {
+  color:  white;
+  -webkit-text-stroke:  1px var(--blue);
+  
+
+
+}
+
+call-to-action .calm-voice {
+  color:  white;
+  font-size:  18px;
+  /*-webkit-text-stroke:  1px var(--black);*/
+  text-shadow:  1px 1px 0 black;
+
+
+}
+
+
+call-to-action a {
+   display:  inline-block;
+  margin-top:  40px;
+  background-color: var(--green);
+  padding:  15px;
+  text-transform: uppercase;
+
+  color:  #fff;
+  font-weight: 900;
+  font-size:  20px;
+  box-shadow: inset 0 0 2px 0 var(--orange);
+  transition: ease-out 0.4s;
+  outline: none;
+}
+
+call-to-action a:hover {
+  box-shadow: inset 219px 0 2px 0 var(--blue);
+  color:  #fff;
+  transform: scale(1.05);
+
+}
+
+
+.help-us call-to-action .attention-voice {
+   color:  var(--blue);
+}
+
+.help-us call-to-action .calm-voice {
+   color:  var(--light-blue);
+}
+
+.help-us call-to-action a {
+   background-color: var(--navy-blue);
+}
+
+.help-us call-to-action a span.calm-voice {
+   color:  white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media (min-width: 600px) {
+  call-to-action {
+    padding: 100px;
+  }
+}
+
+@media (min-width:  768px) {
+  section.get-involved {
+    background-color: var(--orange);
+  }
+
+  call-to-action {
+    padding:  100px 15px;
+
+  }
+
+  .help-us call-to-action {
+    background-color: transparent;
+  }
+  section.help-us {
+    background-color: var(--light-blue);
+    background: url(../../images/bridge.jpg) no-repeat center center / cover;
+    position:  relative;
+    z-index: 0;
+  }
+
+
+  section.help-us::before{
+    content:  '';
+    position: absolute;
+    top: 0;
+    left:  0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    height:  100%;
+    width:  100%;
+
+  }
+
+  section.help-us * {
+    z-index: 10;
+  }
+}
+
+@media (min-width:  1000px) {
+  call-to-action * {
+    padding-top: 15px;
+  }
+}*/
+
+

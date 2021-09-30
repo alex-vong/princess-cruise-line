@@ -1,0 +1,51 @@
+
+.photo-grid-container {
+   background-color: #fff;
+   padding:  15px;
+   display:  grid;
+   grid-template-columns:  1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 0.4rem;
+   grid-template-areas: 
+      'img-1 img-2 img-2 img-3'
+      'img-1 img-2 img-2 img-3'
+      'img-4 img-4 img-5 img-6'
+      'img-4 img-4 img-5 img-6';
+
+}
+
+.photo-grid-container picture {
+  box-shadow: inset 0 0 2px 0 var(--black);
+}
+
+.photo-grid-container img {
+   height:  100%;
+}
+
+
+.photo-grid-container picture:first-child img{
+   grid-area:  img-1;
+
+}
+
+.photo-grid-container picture:nth-child(2) {
+   grid-area:  img-2;
+   /*max-height:  58.22px;*/
+}
+
+.photo-grid-container picture:nth-child(3) {
+   grid-area:  img-3;
+}
+
+.photo-grid-container picture:nth-child(4) {
+   grid-area:  img-4;
+   /*max-height:  58.22px;*/
+}
+
+.photo-grid-container picture:nth-child(5) {
+   grid-area:  img-5;
+}
+
+.photo-grid-container picture:nth-child(6) {
+   grid-area:  img-6;
+}

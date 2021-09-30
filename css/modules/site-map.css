@@ -1,0 +1,46 @@
+
+.what-to-call-it-then {
+   margin-top:  60px;
+}
+
+site-map {
+  padding-top: 40px;
+  padding-bottom: 120px;
+  /* */
+/*  display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+  text-transform: capitalize;
+
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap:  1rem;
+}
+
+
+site-map .logo * {
+  fill: currentColor;
+}
+
+site-map a {
+  padding:  10px;
+  text-decoration: underline;
+  font-family: 'Sintony', sans-serif;
+  font-size:  16px;
+}
+
+footer p {
+  font-family: 'Sintony', sans-serif;
+}
+
+@media (min-width: 500px) {
+  site-map {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+  .user-menu {
+   align-self:  flex-start;
+  }
+}

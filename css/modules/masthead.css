@@ -1,0 +1,95 @@
+
+.site-header {
+   z-index:  10000;
+}
+
+mast-head {
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  display:  flex;
+  flex-direction:  row;
+  /*justify-content: space-between;*/
+  width:  100%;
+  
+
+}
+
+mast-head nav.site-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow:  2;
+
+}
+
+mast-head a.logo {
+  max-width:  120px;
+
+}
+
+mast-head .user-menu {
+  text-align:  center;
+
+}
+
+
+mast-head a {
+  padding:  10px;
+  font-size:  16px;
+
+}
+
+.user-menu {
+   align-self: center;
+}
+
+
+@media (min-width:  450px) {
+
+mast-head nav.site-menu {
+
+  align-items: flex-end;
+  
+
+}
+   mast-head .user-menu {
+    align-self: flex-end;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
