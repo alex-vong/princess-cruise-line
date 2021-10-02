@@ -1,5 +1,6 @@
 
 <mast-head>
+
 	<nav class='site-menu'>
 		<a class='logo' href='#'>
 			<picture>
@@ -11,19 +12,25 @@
 			</picture>
 		</a>
 
-		<a href='#'>
-			<span>Some page</span>
-		</a>
+		<div class="nav-items">
+			<a href='#' class='menu-item'>
+				<i class="fas fa-ship"></i>
+				<p class='whisper-voice'>Cruises</p>
+			</a>
 
-		<a href='#'>
-			<span>"Masthead"</span>
-		</a>
+			<a href='#' class='menu-item'>
+				<i class="fas fa-phone"></i>
+				<p class='whisper-voice'>Call</p>
+			</a>
+		</div>
+
 	</nav>
 
 
 	<nav class='user-menu'>
-		<a href='#'>
-			<span>Sign-in</span>
+		<a href='#' class='menu-item'>
+			<i class="fas fa-bars"></i>
+			<p class='whisper-voice'>Menu</p>
 		</a>
 	</nav>
 
