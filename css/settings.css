@@ -3,11 +3,13 @@ html {
 	--black: #111111;
 	--white: #FFFFFF;
 	--blue:  #0d2f56;
-	--gray: #f3f3f3;
+	--gray: #4d4d4d;
+   --dark-gray:  #181819;
    --light-blue:  #0054a0;
 	--navy-blue: #0a213d;
    --green:  #35a748;
-   --font-blue:  #035388;
+   --font-blue:  #02538b;
+   --hover-blue:  #004178;
 }
 
 /* USAGE */
