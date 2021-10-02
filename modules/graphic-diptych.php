@@ -1,17 +1,37 @@
 
 <graphic-diptych>
 
-	<picture>
+<!-- 	<picture>
    	 <source srcset="../../images/fall-frenzy-ipad.svg"
             media="(min-width: 700px)">
 	<img src="../../images/fall-frenzy.svg" alt="">
 
-	</picture>
+	</picture> -->
 
 	<text-content>
-		<h1 class='loud-voice'>Hello! This is a 'diptych'</h1>
+		<h1 class='loud-voice'>fall frenzy</h1>
 
-		<p class='calm-voice'>You can call it whatever you want. It's a module that has an image and some supporting text. On the smaller screen it works nicely to stack. On a larger screen, it fits side by side.</p>
+		<div class='bottom-text'>
+			<div class="up-to">
+				<p>up</p>
+				<p>to</p>
+			</div>
+
+			<div class="price">
+				<p>$200</p>
+			</div>
+
+			<div class="onboarding">
+				<p>onboard spending money</p>
+				<p>per stateroom</p>
+
+			</div>
+		</div>
+
+			<button>View Deals</button>
+
 	</text-content>
+
+
 
 </graphic-diptych>

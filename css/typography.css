@@ -27,6 +27,11 @@
 
 }
 
+.whisper-voice {
+   font-size: 14px;
+
+}
+
 /* these would be scoped to section or to an article element */
 /* this is just a loose setting for now */
 p + p {

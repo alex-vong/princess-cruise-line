@@ -1,23 +1,123 @@
+.welcome {
+  background: linear-gradient(75deg, #F7F8F8 60%, #3639C5 40%);
+/*  background: url('https://images.unsplash.com/photo-1530476219733-88085e45aa2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9zaXRhbm8lMjBpdGFseXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60') no-repeat center center / cover;*/
+  height:  25vh;
+
+  /*transform: scaleX(-1);*/
+  position:  relative;
+
+
+}
+
+
+.welcome::before {
+  content: "";
+  position: absolute;
+   height:  30vh;
+    width:  100%;
+  background: url('https://images.unsplash.com/photo-1530476219733-88085e45aa2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9zaXRhbm8lMjBpdGFseXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60') no-repeat center center / cover;
+  transform: scaleX(-1);
+
+}
 
 .welcome inner-column {
   padding:  0;
 
 }
-
 graphic-diptych {
-  display: block;
+   display:  block;
+
 }
 
 
 graphic-diptych text-content {
-  display: block;
-  padding:  40px 20px;
-  text-align:  center;
-  color: var(--white);
-  background-color: var(--blue);
-  width:  min(100%, 1200px);
-  margin:  auto;
+  display:  flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:  10px;
+  /*text-align:  center;*/
+  color:  #005389;
+
+  width: min(60%, 400px);
+
+  transform: translate(8%, 10%);
+
+ 
 }
+
+text-content h1.loud-voice {
+   font-size:  50px;
+   padding-left:  5px;
+   font-family: 'Merriweather', serif;
+
+}
+
+text-content .calm-voice {
+   font-size:  14px;
+   margin-top: 10px;
+   /*line-height: 1.2;*/
+
+   font-family: 'Merriweather', serif;
+   font-style: italic;
+   font-weight: 700;
+
+}
+
+
+.bottom-text {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   gap: 2px;
+}
+
+.up-to, .onboarding {
+   display:  flex;
+   flex-direction: column;
+   justify-content: start;
+   /*gap:  2px;*/
+   font-size:  10px;
+}
+
+.onboarding {
+   justify-content: center;
+}
+
+.up-to p, .onboarding p {
+   margin:  0;
+}
+
+.onboarding p:first-child {
+   font-weight: 500;
+}
+
+.price {
+    font-family: 'Noticia Text', serif;
+   font-size: 40px;
+   font-weight: 700;
+  transform: translateY(-10px);
+}
+
+
+   text-content button {
+   /*display:  inline-block;*/
+   margin-top:  30px;
+   padding:  10px 20px;
+   background-color: var(--font-blue);
+   color:  var(--white);
+   font-size: 12px;
+   font-weight: 500;
+   width:  auto;
+   align-self: flex-start;
+   border:  none;
+
+}
+
+
+
+
+
+
 
 
 @media (min-width:  750px) {
