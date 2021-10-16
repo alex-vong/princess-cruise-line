@@ -7,7 +7,7 @@
 				
  			<source media='(max-width: 450px)' srcset='images/princess-logo-mobile.svg'>
 
-			<img src="images/princess-logo-desktop.svg" alt="">
+			<img src="images/princess-logo-desktop2.svg" alt="">
 			<!-- or you could actually use the SVG -->
 			</picture>
 		</a>
