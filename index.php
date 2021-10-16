@@ -5,11 +5,10 @@
 
 
 <section class='welcome'>
-	<inner-column>
-
-		<?php include('modules/graphic-diptych.php'); ?>
-
+	<inner-column>		
+			<?php include('modules/graphic-diptych.php'); ?>
 	</inner-column>
+
 </section>
 
 
@@ -36,9 +35,7 @@
 
 <section class='help-us'>
 	<inner-column>
-
-		<?php include('modules/call-to-action.php'); ?>
-
+		<?php include('modules/confidence.php'); ?>
 	</inner-column>
 </section>
 
@@ -46,7 +43,6 @@
 <section class="photo-grid">
 	<inner-column>
 		<?php include('modules/photo-grid.php') ?>
-	
 	</inner-column>
 </section>
 

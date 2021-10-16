@@ -1,37 +1,15 @@
-
+<a href="https://www.google.com/">
 <graphic-diptych>
 
-<!-- 	<picture>
-   	 <source srcset="../../images/fall-frenzy-ipad.svg"
-            media="(min-width: 700px)">
-	<img src="../../images/fall-frenzy.svg" alt="">
-
-	</picture> -->
-
-	<text-content>
-		<h1 class='loud-voice'>fall frenzy</h1>
-
-		<div class='bottom-text'>
-			<div class="up-to">
-				<p>up</p>
-				<p>to</p>
-			</div>
-
-			<div class="price">
-				<p>$200</p>
-			</div>
-
-			<div class="onboarding">
-				<p>onboard spending money</p>
-				<p>per stateroom</p>
-
-			</div>
-		</div>
-
-			<button>View Deals</button>
-
-	</text-content>
-
+<a href="#">
+	<picture>
+		<source media="(min-width: 60em)" srcset="https://www.princess.com/images/global/home/slides/nam/nam-lto-fall-frenzy-hero-ak-1700.jpg">
+		<source media="(min-width: 48em)" srcset="https://www.princess.com/images/global/home/slides/nam/nam-lto-fall-frenzy-hero-ak-1100.jpg">
+		<img class=" lazyloaded" alt="Fall Frenzy. Up to $200 onboard spending money per stateroom1. View Deals" src="https://www.princess.com/images/global/home/slides/nam/nam-lto-fall-frenzy-hero-ak-768.jpg" srcset="https://www.princess.com/images/global/home/slides/nam/nam-lto-fall-frenzy-hero-ak-768.jpg">
+	</picture>
+</a>
 
 
 </graphic-diptych>
+
+</a>

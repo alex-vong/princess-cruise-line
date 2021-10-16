@@ -1,0 +1,44 @@
+.help-us {
+   padding:  15px 0;
+}
+
+confidence-intro {
+   display:  block;
+   padding:  15px;
+}
+
+confidence-grid {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+confidence-card {
+   border: 1px solid #b2b2b2;
+}
+
+
+
+confidence-card h2 {
+   color:  var(--font-blue);
+   font-size: 1.357142857142857em;
+   letter-spacing: 1px;
+   font-weight: 400;
+}
+
+confidence-card h2 span {
+   font-size:  10px;
+   vertical-align: top;
+}
+
+.confidence-card-details {
+   padding:  15px;
+
+}
+
+confidence-card p {
+   color:  var(--black);
+   font-size: 14px;
+   letter-spacing: 0.1px;
+   font-weight: 500;
+   margin-top:  18px;
+}
