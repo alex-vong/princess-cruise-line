@@ -2,29 +2,21 @@
 
 $database = [
 	[
-		"heading" => "Article or product",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"img" => "images/la-residents.jpg",
+		"description" => "LA Residents from $50 per day",
 	],
 	[
-		"heading" => "Destination or option",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"img" => "images/themed-cruises.jpg",
+		"description" => "Sail Soon on Our '80s & Comedy Themed Cruises",
 	],
 	[
-		"heading" => "Story or something",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"img" => "images/mexico.jpeg",
+		"description" => "New Ship Sailing Mexico & California Coast!",
 	],
 	[
-		"heading" => "Banana tandori",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-	],
-	[
-		"heading" => "Bar B Q",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
-	],
-	[
-		"heading" => "Marsala",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"img" => "images/japan.jpeg",
+		"description" => "2023 Japan Cruises & Cruisetours Now On Sale",
 	],
 ];
 
-echo $database["heading"];
+echo $database["img"];

@@ -3,7 +3,7 @@
 
 	<section class="connections-heading">
 		<h2>#PrincessCruises Connections</h2>
-		<p>"Our guests love to post their favorite Princess Cruises moments on social media! Share yours by using #PrincessCruises for the chance to be featured in our gallery."</p>
+		<p>Our guests love to post their favorite Princess Cruises moments on social media! Share yours by using #PrincessCruises for the chance to be featured in our gallery.</p>
 	</section>
 
 	<section class="photo-grid-container">
