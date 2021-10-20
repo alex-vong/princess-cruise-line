@@ -2,17 +2,19 @@
 <article-card>
 
 	<picture class='grid-image'>
-		<img src='https://peprojects.dev/images/landscape.jpg' loading='lazy' alt='$todo'>
+		<img src='<?=$article["img"]?>' loading='lazy' alt='$todo'>
+
+		<a href='#'>
+			<span>View Deals</span>
+		</a>
 	</picture>
 
+
+
 	<section class="article-card-details">
-		<h2 class='attention-voice'><?=$article["heading"]?></h2>
 
 		<p class='calm-voice'><?=$article["description"]?></p>
 
-		<a href='#'>
-			<span>Read more</span>
-		</a>
 	</section>
 
 
